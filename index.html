@@ -1,610 +1,696 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-  <link rel="icon" href="images/favicon.png" type="image/gif" />
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content />
+    <meta name="description" content />
+    <meta name="author" content />
+    <link rel="icon" href="images/favicon.png" type="image/gif" />
 
-  <title>HJ Soluções em Sistemas</title>
+    <title>JH Soluções em Sistemas</title>
 
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <!--Font Awessome-->
+    <link rel="stylesheet" href="css/all.css">
 
-  <!-- fonts style -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
+    <!-- bootstrap core css -->
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 
-  <!-- lightbox Gallery-->
-  <link rel="stylesheet" href="css/ekko-lightbox.css" />
+    <!-- fonts style -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap" rel="stylesheet" />
 
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+    <!-- lightbox Gallery-->
+    <link rel="stylesheet" href="css/ekko-lightbox.css" />
 
-</head>
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
 
-<body>
+    <!--Cards css-->
+    <link rel="stylesheet" href="css/cards_sobre.css">
 
-  <!-- header section strats -->
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-dark bg-dark fixed-top mb-0">
+      <div class="container-fluid p-0 py-0 mb-0">
+        <img src="images/logo/logo-s-bg.png" alt
+          style="height: 70px; width: 70px; padding: 0; margin: 0;">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1"
+          id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <img src="images/logo/logo-s-bg.png" alt
+              style="max-height: 150px; margin: 0; padding: 0;">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"
+              style="margin-left: -100px;">JH Segurança</h5>
+            <button type="button" class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div
+            class="offcanvas-body d-flex justify-content-center align-items-start">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">Produtos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicos">Serviços</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#notocias">Notícias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#depoimentos">Depoimentos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- header section strats 
   <header class="header_section">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg custom_nav-container">
-        <a class="navbar-brand" href="index.html">
-          <span>
-            HJ Segurança
-          </span>
-        </a>
-        <div class="" id="">
+    
+    <div class="container-fluid bg-dark">
+      <div class="menu" style="display: flex; justify-content: space-between; align-items: center;">
+        <img src="images/logo/logo-s-bg.png" alt="" style="height: 90px; width: 90px;">
 
-          <div class="custom_menu-btn">
-            <button onclick="openNav()">
-              <span class="s-1"> </span>
-              <span class="s-2"> </span>
-              <span class="s-3"> </span>
-            </button>
-            <div id="myNav" class="overlay">
-              <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="about.html">Sobre</a>
-                <a href="gallery.html">Galeria</a>
-                <a href="service.html">Serviços</a>
-                <a href="blog.html">Blog</a>
+        <ul class="nav justify-content-center align-items-center py-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+
+
+      <!--
+
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              JH Segurança
+            </span>
+          </a>
+          <div class="" id="">
+            
+            <div class="custom_menu-btn">
+              <button onclick="openNav()">
+                <span class="s-1"> </span>
+                <span class="s-2"> </span>
+                <span class="s-3"> </span>
+              </button>
+              <div id="myNav" class="overlay">
+                <div class="overlay-content">
+                  <a href="index.html">Home</a>
+                  <a href="about.html">Sobre</a>
+                  <a href="gallery.html">Galeria</a>
+                  <a href="service.html">Serviços</a>
+                  <a href="blog.html">Blog</a>
+                </div>
               </div>
             </div>
+            
           </div>
-        </div>
-      </nav>
-    </div>
+        </nav>
+      </div>
   </header>
-  <!-- end header section -->
+-->
+    <!-- end header section -->
 
-  <!-- slider section -->
-  <section class="slider_section position-relative">
-    <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <div class="img_container">
-            <div class="img-box">
-              <img src="images/img-1.jpg" class="" alt="...">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="img_container">
-            <div class="img-box">
-              <img src="images/img-2.jpg" class="" alt="...">
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <div class="img_container">
-            <div class="img-box">
-              <img src="images/img3.jpg" class="" alt="...">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="carousel_btn_box">
-        <a class="carousel-control-prev" href="#customCarousel1" role="button" data-slide="prev">
-          <i class="fa fa-arrow-left" aria-hidden="true"></i>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#customCarousel1" role="button" data-slide="next">
-          <i class="fa fa-arrow-right" aria-hidden="true"></i>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-    </div>
-    <div class="detail-box">
-      <div class="col-md-8 col-lg-6 mx-auto">
-        <div class="inner_detail-box">
-          <h1>
-            JH Segurança
-          </h1>
-          <p>
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem
-          </p>
-          <div>
-            <a href="#contato" class="slider-link">
-              Entre em contato
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end slider section -->
-
-  <!-- about section -->
-
-  <section class="about_section layout_padding ">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/about-img.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                Sobre Nós
-              </h2>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.
-            </p>
-            <a href="about.html">
-              Saiba mais!
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
-
-  <!-- gallery section -->
-
-  <div class="gallery_section layout_padding2">
-    <div class="container-fluid">
-      <div class="heading_container heading_center">
-        <h2>
-          Galeria
-        </h2>
-      </div>
-      <div class="row">
-        <div class=" col-sm-8 col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/g1.jpg" alt="">
-            <a href="images/g1.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g2.jpg" alt="">
-            <a href="images/g2.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g3.jpg" alt="">
-            <a href="images/g3.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g4.jpg" alt="">
-            <a href="images/g4.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-4 col-md-3 px-0">
-          <div class="img-box">
-            <img src="images/g5.jpg" alt="">
-            <a href="images/g5.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-8 col-md-6 px-0">
-          <div class="img-box">
-            <img src="images/g6.jpg" alt="">
-            <a href="images/g6.jpg" data-toggle="lightbox" data-gallery="gallery">
-              <i class="fa fa-picture-o" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="btn-box">
-        <a href="">
-          Veja tudo!
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- end gallery section -->
-
-
-  <!-- service section -->
-
-  <section class="service_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Serviços
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/s1.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Segurança Residencial
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio aspernatur officiis exercitationem asperiores praesentium
-              </p>
-              <a href="service.html">
-                Saiba Mais!
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/s2.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Segurança Empresarial
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio aspernatur officiis exercitationem asperiores praesentium
-              </p>
-              <a href="service.html">
-                Saiba Mais!
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4 mx-auto">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/s3.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Segurança Patrimonial
-              </h5>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque distinctio aspernatur officiis exercitationem asperiores praesentium
-              </p>
-              <a href="service.html">
-                Saiba Mais!
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- end service section -->
-
-
-
-  <!-- blog section -->
-
-  <section class="blog_section ">
-    <div class="container-fluid">
-      <div class="heading_container">
-        <h2>
-          Nosso Blog
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-lg-6 ">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/b1.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Velit tempora molestias quae
-              </h5>
-              <p>
-                Omnis itaque ducimus excepturi dignissimos voluptatibus sequi nisi ut ullam, perspiciatis doloribus! Cum itaque sint quibusdam aut vel. A esse labore.
-              </p>
-              <a href="blog.html">
-                Saiba Mais!
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 ">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/b2.jpg" alt="">
-            </div>
-            <div class="detail-box">
-              <h5>
-                Repudiandae voluptatum quaerat
-              </h5>
-              <p>
-                Totam non minus suscipit, exercitationem deserunt doloribus provident dolor quos nulla impedit, perspiciatis excepturi eius hic vero harum deleniti.
-              </p>
-              <a href="blog.html">
-                Saiba Mais! 
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end blog section -->
-
-  <!-- client section -->
-
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Depoimentos dos nossos clientes
-        </h2>
-      </div>
-      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
+    <!-- slider section -->
+    <section class="slider_section position-relative">
+      <div id="customCarousel1" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-11 col-lg-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="images/client.jpg" alt="" />
-                  </div>
-                  <div class="detail-box">
-                    <div class="name">
-                      <h6>
-                        Siaalya
-                      </h6>
-                    </div>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable cIt is a long established fact
-                      that a reader will be distracted by the readable c
-                    </p>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                </div>
+            <div class="img_container">
+              <div class="img-box">
+                <img src="images/img-1.jpg" class alt="...">
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-11 col-lg-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="images/client.jpg" alt="" />
-                  </div>
-                  <div class="detail-box">
-                    <div class="name">
-                      <h6>
-                        Siaalya
-                      </h6>
-                    </div>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable cIt is a long established fact
-                      that a reader will be distracted by the readable c
-                    </p>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                </div>
+            <div class="img_container">
+              <div class="img-box">
+                <img src="images/img-2.jpg" class alt="...">
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-11 col-lg-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="images/client.jpg" alt="" />
-                  </div>
-                  <div class="detail-box">
-                    <div class="name">
-                      <h6>
-                        Siaalya
-                      </h6>
-                    </div>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable cIt is a long established fact
-                      that a reader will be distracted by the readable c
-                    </p>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                </div>
+            <div class="img_container">
+              <div class="img-box">
+                <img src="images/img3.jpg" class alt="...">
               </div>
             </div>
           </div>
         </div>
-        <div class="carousel_btn-container">
-          <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
-            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+        <div class="carousel_btn_box">
+          <a class="carousel-control-prev" href="#customCarousel1" role="button"
+            data-slide="prev">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+          <a class="carousel-control-next" href="#customCarousel1" role="button"
+            data-slide="next">
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
             <span class="sr-only">Next</span>
           </a>
         </div>
       </div>
-    </div>
-  </section>
-
-  <!-- end client section -->
-
-  <!-- contact section -->
-  <section class="contact_section  " id="contato">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7 col-lg-6 ">
-          <div class="form_container">
-            <div class="heading_container ">
-              <h2>
-                Entre em contato
-              </h2>
-            </div>
-            <form action="">
-              <div>
-                <input type="text" placeholder="Seu Nome" />
-              </div>
-              <div>
-                <input type="text" placeholder="Seu contato" />
-              </div>
-              <div>
-                <input type="email" placeholder="Email" />
-              </div>
-              <div>
-                <input type="text" class="message-box" placeholder="Mensagem" />
-              </div>
-              <div class="btn_box">
-                <button>
-                  Enviar
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-5 col-lg-6">
-          <div class="subscribe-box">
-            <h3>
-              Inscreva-se para receber novidades  
-            </h3>
+      <div class="detail-box">
+        <div class="col-md-8 col-lg-6 mx-auto">
+          <div class="inner_detail-box">
+            <h1>
+              JH Segurança
+            </h1>
             <p>
-              Neque, omnis? Maiores consectetur molestiae assumenda earum ea exercitationem velit tempora molestias quae, neque voluptas magnam maxime, repudiandae voluptatum quaerat tempore accusamus.
+             
+"A segurança patrimonial é fundamental para proteger ativos e garantir a continuidade dos negócios."
             </p>
-            <form action="">
-              <input type="email" placeholder="Coloque aqui o seu email">
-              <button>
-                Inscrever-se
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end contact section -->
-
-  <!-- info section -->
-  <section class="info_section ">
-    <div class="container">
-      <div class="row info_main_row">
-        <div class="col-md-6 col-lg-3">
-          <div class="info_insta">
-            <h4>
-              <a href="index.html" class="navbar-brand m-0 p-0">
-                <span>
-                  JH Segurança
-                </span>
+            <div>
+              <a href="#contato" class="slider-link">
+                Entre em contato
               </a>
-            </h4>
-            <p class="mb-0">
-              Asperiores at, error, delectus aut voluptatem provident cum quam magni necessitatibus molestias eveniet reprehenderit maiores voluptate.
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="info_detail">
-            <h4>
-              Empresa
-            </h4>
-            <p class="mb-0">
-              when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <h4>
-            Entre em contato
-          </h4>
-          <div class="info_contact">
-            <a href="">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                Localização
-              </span>
-            </a>
-            <a href="">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>
-                Tel: +55 1191234-5678
-              </span>
-            </a>
-            <a href="">
-              <i class="fa fa-envelope"></i>
-              <span>
-                jhseguranca@gmail.com
-              </span>
-            </a>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <h4>
-            Nossas redes
-          </h4>
-          <div class="social_box">
-            <a href="">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+    <!-- end slider section -->
 
-  <!-- end info_section -->
+    <!-- about section -->
 
+    <section class="about_section layout_padding " id="sobre">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="img-box">
+              <img src="images/logo/JH.png" alt>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="detail-box">
+              <div class="heading_container">
+                <h2>
+                  Sobre Nós
+                </h2>
+              </div>
+              <p>
+                A JH Segurança é uma empresa especializada na prestação de serviços de segurança e proteção. Fundada com a missão de garantir a tranquilidade e a segurança de seus clientes, a empresa oferece uma ampla gama de soluções voltadas para a proteção de pessoas, propriedades e ativos.
 
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="#">JH Segurança</a>
-      </p>
-    </div>
-  </footer>
-  <!-- footer section -->
+                Com uma equipe altamente treinada e experiente, a JH Segurança atende a uma variedade de setores, incluindo residencial, comercial e industrial. Seus serviços abrangem a segurança patrimonial, o monitoramento 24 horas, o controle de acesso, a vigilância, a escolta de cargas valiosas, a segurança pessoal e muitos outros.
+                
+                A empresa está comprometida com os mais altos padrões de qualidade e eficiência, utilizando tecnologia de ponta para oferecer soluções de segurança sob medida para cada cliente. Seu compromisso com a excelência e a segurança a torna uma escolha confiável para aqueles que buscam proteção e tranquilidade em suas operações e em suas vidas pessoais.
+              </p>
 
+            </div>
+          </div>
 
-  <!-- jQery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <!-- bootstrap js -->
-  <script src="js/bootstrap.js"></script>
-  <!-- lightbox Gallery-->
-  <script src="js/ekko-lightbox.min.js"></script>
-  <!-- custom js -->
-  <script src="js/custom.js"></script>
+        </div>
+        <div id="produtos"></div>
+      </section>
 
-</body>
+      <!-- end about section -->
 
-</html>
+      <!-- Produtos section -->
+      <div class="gallery_section layout_padding2">
+        <div class="container-fluid">
+          <div class="heading_container heading_center">
+            <h2>
+              Produtos
+            </h2>
+          </div>
+
+        </div>
+
+        <!--Cards produtos-->
+
+        <div class="container-card">
+
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <span class="stars"></span>
+                <h2 class="java text-center">Câmeras de segurança</h2>
+                <p class="java">O infravermelho com alcance de até 30 metros permite que a câmera faça um monitoramento com imagens claras, mesmo em ambientes com pouca luminosidade.</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2></h2>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <span class="stars"></span>
+                <h2 class="python text-center">Reconhecimento Facial</h2>
+                <p class="python">O reconhecimento facial é uma tecnologia de biometria que utiliza algoritmos para analisar e identificar características faciais únicas de um indivíduo, como a disposição dos olhos, nariz, boca e outros traços distintivos. Essa tecnologia é amplamente utilizada em sistemas de segurança, autenticação e reconhecimento de pessoas, permitindo a identificação rápida. e precisa de indivíduos com base em suas características faciais.</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2 class="text-center"></h2>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="face face1">
+              <div class="content">
+                <span class="stars"></span>
+                <h2 class="cSharp text-center">Monitoramento</h2>
+                <p class="cSharp">Central de monitoramento, com equipamentos de última geração equipamentos.</p>
+              </div>
+            </div>
+            <div class="face face2">
+              <h2></h2>
+            </div>
+          </div>
+        </div>
+
+        <div id="servicos"></div>
+      </div>
+
+      <!-- end gallery section -->
+
+      <!-- service section -->
+
+      <section class="service_section layout_padding">
+        <div class="container">
+          <div class="heading_container heading_center">
+            <h2>
+              Serviços
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-lg-4 mx-auto">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/servico-1.png" style="height: 140px; width: 140px;">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Segurança Residencial
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque distinctio aspernatur officiis
+                    exercitationem asperiores praesentium
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mx-auto">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/servicos-3.jpg" alt style="height: 140px; width: 140px;">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Segurança Empresarial
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque distinctio aspernatur officiis
+                    exercitationem asperiores praesentium
+                  </p>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mx-auto">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/servicos-2.jpg" alt style="height: 140px; width: 140px">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Segurança Patrimonial
+                  </h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Doloremque distinctio aspernatur officiis
+                    exercitationem asperiores praesentium
+                  </p>
+
+                  <div id="notocias"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end service section -->
+
+      <!-- Notícias -->
+
+      <section class="blog_section ">
+        <div class="container-fluid">
+          <div class="heading_container">
+            <h2>
+              Curiosidades Sobre a área de segurança
+            </h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 ">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/curiosidades-1.png" alt>
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Você e seu patrimonio em boas mãos.
+                  </h5>
+                  <p>
+                    Conquistamos uma sólida reputação devido a nossa alta capacitação tecnológia e preparação de profissionais qualificados para tomar a melhor decisão para manter você e seu patrimonio seguros.
+                  </p>
+               
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 ">
+              <div class="box">
+                <div class="img-box">
+                  <img src="images/curiosidades-2.png" style="height: 233px;" alt>
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Segurança sempre em primeiro lugar.
+                  </h5>
+                  <p>
+                    Segurança patrimonial e pessoal são as mais buscadas pelas empresas e pessoas públicas. CFTV e alarme monitoramento veicular isca de carga trava e cofres.
+                  </p>
+               
+                </div>
+              </div>
+              <div id="depoimentos"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end blog section -->
+
+      <!-- Depoimentos -->
+
+      <section class="client_section layout_padding">
+        <div class="container">
+          <div class="heading_container">
+            <h2>
+              Depoimentos dos nossos clientes
+            </h2>
+          </div>
+          <div id="carouselExample2Controls" class="carousel slide"
+            data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-md-11 col-lg-10 mx-auto">
+                    <div class="box">
+                      <div class="img-box">
+                        <img src="images/client.jpg" alt />
+                      </div>
+                      <div class="detail-box">
+                        <div class="name">
+                          <h6>
+                            Siaalya
+                          </h6>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, beatae. Sunt, est blanditiis voluptate tempore voluptatibus saepe suscipit similique dolorem earum modi itaque id, illum quaerat labore quibusdam optio quia!
+                        </p>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-11 col-lg-10 mx-auto">
+                    <div class="box">
+                      <div class="img-box">
+                        <img src="images/client.jpg" alt />
+                      </div>
+                      <div class="detail-box">
+                        <div class="name">
+                          <h6>
+                            Diva
+                          </h6>
+                        </div>
+                        <p>
+                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi illo quaerat et fugit sed consectetur officia molestias ratione nobis. Nisi maxime, consectetur nemo voluptatum ex distinctio aut laboriosam! Maiores, quidem.
+                        </p>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-md-11 col-lg-10 mx-auto">
+                    <div class="box">
+                      <div class="img-box">
+                        <img src="images/client.jpg" alt />
+                      </div>
+                      <div class="detail-box">
+                        <div class="name">
+                          <h6>
+                            Allan
+                          </h6>
+                        </div>
+                        <p>
+                          Lorem ipsum dolor, sit amet consectetur adipisicing elit. At nihil sunt atque tenetur incidunt, repellat nulla dolores! Voluptate neque odit tempora odio animi beatae? Tenetur minus similique at unde obcaecati!
+                        </p>
+                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel_btn-container">
+              <a class="carousel-control-prev" href="#carouselExample2Controls"
+                role="button" data-slide="prev">
+                <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExample2Controls"
+                role="button" data-slide="next">
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <div id="contato"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end client section -->
+
+      <!-- contact section -->
+      <section class="contact_section">
+        <div class="container">
+          <div class="row  d-flex justify-content-center">
+            <div class="col-md-7 col-lg-6 ">
+              <div class="form_container ">
+                <div class="heading_container ">
+                  <h2>
+                    Entre em contato
+                  </h2>
+                </div>
+                <form action>
+                  <div>
+                    <input type="text" placeholder="Seu Nome" />
+                  </div>
+                  <div>
+                    <input type="text" placeholder="Seu contato" />
+                  </div>
+                  <div>
+                    <input type="email" placeholder="Email" />
+                  </div>
+                  <div>
+                    <input type="text" class="message-box"
+                      placeholder="Mensagem" />
+                  </div>
+                  <div class="btn_box">
+                    <button>
+                      Enviar
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            
+            <!--<div class="col-md-5 col-lg-6">
+              <div class="subscribe-box">
+                <h3>
+                  Inscreva-se para receber novidades
+                </h3>
+                <p>
+                  Neque, omnis? Maiores consectetur molestiae assumenda earum ea
+                  exercitationem velit tempora molestias
+                  quae, neque voluptas magnam maxime, repudiandae voluptatum
+                  quaerat tempore accusamus.
+                </p>
+                <form action>
+                  <input type="email" placeholder="Coloque aqui o seu email">
+                  <button>
+                    Inscrever-se
+                  </button>
+                </form>
+              </div>
+            </div>-->
+          </div>
+        </div>
+      </section>
+      <!-- end contact section -->
+
+      <!-- info section -->
+      <section class="info_section ">
+        <div class="container">
+          <div class="row info_main_row">
+            <div class="col-md-6 col-lg-3">
+              <div class="info_insta">
+                <h4>
+                  <a href="index.html" class="navbar-brand m-0 p-0">
+                    <span>
+                      JH Segurança
+                    </span>
+                  </a>
+                </h4>
+                <p class="mb-0">
+                  Com uma equipe altamente treinada e experiente, a JH Segurança atende a uma variedade de setores, incluindo residencial, comercial e industrial. 
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="info_detail">
+                <h4>
+                  Empresa
+                </h4>
+                <p class="mb-0">
+                  A JH Segurança é uma empresa especializada na prestação de serviços de segurança e proteção. Fundada com a missão de garantir a tranquilidade e a segurança de seus clientes, a empresa oferece uma ampla gama de soluções voltadas para a proteção de pessoas, propriedades e ativos.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h4>
+                Entre em contato
+              </h4>
+              <div class="info_contact">
+                <a href>
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span>
+                   &nbsp; Localização
+                  </span>
+                </a>
+                <a href>
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>
+                    &nbsp; Tel: +55 1191234-5678
+                  </span>
+                </a>
+                <a href>
+                  <i class="fa fa-envelope"></i>
+                  <span>
+                    &nbsp;  jhseguranca@gmail.com
+                  </span>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <h4>
+                Nossas redes
+              </h4>
+              <div class="social_box">
+                <a href>
+                  <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                </a>
+                <a href>
+                  <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                </a>
+                <a href>
+                  <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                </a>
+                <a href>
+                  <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- end info_section -->
+
+      <!-- footer section -->
+      <footer class="footer_section">
+        <div class="container">
+          <p>
+            &copy; <span id="displayYear"></span> All Rights Reserved By
+            <a href="#">JH Segurança</a>
+          </p>
+        </div>
+      </footer>
+      <!-- footer section -->
+
+      <!-- jQery -->
+      <script src="js/jquery-3.4.1.min.js"></script>
+      <!-- bootstrap js -->
+      <script
+        src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+        crossorigin="anonymous"></script>
+      <script src="js/bootstrap.js"></script>
+      <!-- lightbox Gallery-->
+      <script src="js/ekko-lightbox.min.js"></script>
+      <!-- custom js -->
+      <script src="js/custom.js"></script>
+      <!--Font Awessome-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/svg-with-js.min.css"></script>
+      <script src="js/all.js"></script>
+
+    </body>
+
+  </html>
